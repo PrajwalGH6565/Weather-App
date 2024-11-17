@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-app {
+    text-align: center;
+    width: 90%; 
+    max-width: 400px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .weather-app {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-app {
+        width: 90%; 
+    }
+    #weatherDisplay {
+        font-size: 0.9em; 
+    }
+}
